@@ -34,7 +34,7 @@ npm run preview
 - `scripts/`: geração de HTML/SEO e validação da origem pública.
 - `public/`: favicon JM, imagem Open Graph, cabeçalhos e fallback de rotas do Pages.
 
-As miniaturas foram criadas em CSS/SVG no próprio projeto. Todas estão identificadas como representações conceituais. O gráfico do Saphire Line e o laboratório usam valores demonstrativos, sem métricas profissionais inventadas. Os diagramas representam as relações conceituais entre as tecnologias informadas; não alegam uma auditoria da implementação dos outros projetos.
+Os seis projetos possuem material visual próprio. Saphire Line, CRM Studio e Crônicas de Avernor usam capturas reais; SmartLocker combina uma captura do aplicativo com uma visualização conceitual do produto; Automate Crediagora usa diagramas técnicos; Cofre Nerd usa conceitos de interface baseados no briefing. Cada item informa se é captura, conceito ou diagrama. Valores mostrados nas telas e no laboratório são demonstrativos, sem métricas profissionais inventadas.
 
 ## Interações
 
@@ -70,11 +70,12 @@ Referências oficiais: [Vite](https://vite.dev/guide/), [React no Cloudflare Pag
 
 ## Verificação dos repositórios
 
-Em 30/10/2026, a busca pública do GitHub identificou `SmartLocker`, `CRM-Studio`, `Automate-Crediagora` e `Avernor` em `Mullerjr6`. Somente esses links de projetos foram incluídos.
+Em 30/10/2026, os links públicos dos projetos foram verificados antes da inclusão. Os repositórios de SmartLocker, CRM Studio, Automate Crediagora e Avernor responderam via Git. A aplicação do Saphire Line, sua demonstração, a enciclopédia Crônicas de Avernor e Crônicas Vivas responderam por HTTPS.
 
-- `Mullerjr6/saphire-line` retornou 404; Saphire Line é apresentado sem link até existir uma URL pública verificável.
-- Cofre Nerd não foi identificado na busca pública; nenhum endereço foi inventado.
-- O README atual de Avernor descreve a enciclopédia e o módulo Crônicas Vivas. A página informa essa diferença em relação à proposta de interação com IA do briefing.
+- O Saphire Line apresenta links para a aplicação, a demonstração e o código-fonte, além de capturas reais do modo demonstrativo.
+- Crônicas de Avernor apresenta a enciclopédia pública, o capítulo Crônicas Vivas e o código-fonte.
+- SmartLocker, CRM Studio e Automate Crediagora apresentam seus repositórios públicos. Nenhum endereço de aplicação foi incluído porque não foi localizado um deploy público verificável.
+- Cofre Nerd não foi identificado nos repositórios públicos do autor; nenhum endereço foi inventado.
 - Os demais dados profissionais e recursos descritos vêm do briefing do autor. Nenhuma base privada, credencial, URL interna ou detalhe operacional confidencial foi copiado para o site.
 
 ## Performance e acessibilidade

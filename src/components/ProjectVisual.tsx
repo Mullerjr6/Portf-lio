@@ -2,6 +2,13 @@ import { ArrowUpRight, BarChart3, Check, Cpu, Fingerprint, Layers3, LockKeyhole,
 import type { Project } from '../data/projects'
 
 export function ProjectVisual({ project, large = false }: { project: Project; large?: boolean }) {
+  const screenshot = project.screenshots?.[0]
+  const visualLabel = screenshot?.kind === 'capture' ? 'CAPTURA REAL' : screenshot?.kind === 'diagram' ? 'DIAGRAMA DO PROJETO' : 'VISUAL CONCEITUAL'
+  if (screenshot) return <div className={`project-visual project-screenshot ${large ? 'large' : ''}`} style={{ viewTransitionName: `project-${project.slug}` }}>
+    <img src={screenshot.src} alt={screenshot.alt} loading={large ? 'eager' : 'lazy'} />
+    <span className="screenshot-caption">{visualLabel}{project.slug === 'saphire-line' ? ' · MODO DEMONSTRATIVO' : ''}</span>
+  </div>
+
   return <div className={`project-visual visual-${project.visual} ${large ? 'large' : ''}`} style={{ viewTransitionName: `project-${project.slug}` }} aria-label={`Representação conceitual de ${project.name}`} role="img">
     <div className="visual-grid" />
     {project.visual === 'finance' && <div className="finance-window"><div className="mock-sidebar"><span className="mock-logo">S<span>.</span></span><Wallet size={14} /><BarChart3 size={14} /><Layers3 size={14} /><span className="mock-avatar">JM</span></div><div className="mock-content"><div className="mock-header"><b>Visão geral</b><span>Este mês ↗</span></div><span className="mock-muted">Seu universo financeiro, em equilíbrio.</span><div className="mock-stats"><div>Saldo disponível<strong>R$ 8.450<span>,00</span></strong></div><div>Metas em foco<strong className="mock-percent">↗ 68%</strong></div></div><div className="mock-chart"><span>Fluxo financeiro</span><svg viewBox="0 0 330 100"><defs><linearGradient id={large ? 'chart-fill-large' : 'chart-fill'} x1="0" y1="0" x2="0" y2="1"><stop stopColor="#637cff" stopOpacity=".3" /><stop offset="1" stopColor="#637cff" stopOpacity="0" /></linearGradient></defs><path d="M0 82C20 82 25 60 45 65S70 82 90 53 115 65 140 42 170 60 195 32 220 45 245 18 280 32 300 12 320 14 330 3V100H0Z" fill={`url(#${large ? 'chart-fill-large' : 'chart-fill'})`} /><path d="M0 82C20 82 25 60 45 65S70 82 90 53 115 65 140 42 170 60 195 32 220 45 245 18 280 32 300 12 320 14 330 3" fill="none" stroke="#9daaff" strokeWidth="2" /></svg></div></div></div>}
