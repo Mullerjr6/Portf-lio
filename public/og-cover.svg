@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="glow"><stop stop-color="#173971" stop-opacity=".65"/><stop offset="1" stop-color="#050508" stop-opacity="0"/></radialGradient><linearGradient id="sphere" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e4276"/><stop offset=".6" stop-color="#071021"/><stop offset="1" stop-color="#3262a5"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#769bcc" stroke-opacity=".05" fill="none"/></pattern><clipPath id="clip"><circle cx="919" cy="304" r="160"/></clipPath></defs>
+<rect width="1200" height="630" fill="#050508"/><rect width="1200" height="630" fill="url(#grid)"/>
+<circle cx="920" cy="300" r="300" fill="url(#glow)"/>
+<path d="M64 54h17v28l-8 5-9-5m29 3V54l13 17 13-17v31" fill="none" stroke="#c4d8fc" stroke-width="3" stroke-linejoin="round"/>
+<text x="65" y="163" fill="#92abd4" font-size="11" letter-spacing="3" font-family="Arial,sans-serif">DADOS. CÓDIGO. POSSIBILIDADES.</text>
+<text x="60" y="266" fill="#f0f3fa" font-size="78" letter-spacing="-4" font-family="Arial,sans-serif">Júnior Maia</text><text x="60" y="353" fill="#d1e0fc" font-size="88" letter-spacing="-4" font-family="Arial,sans-serif">Müller<tspan fill="#699fff">.</tspan></text>
+<text x="65" y="425" fill="#b1bdd3" font-size="22" font-family="Arial,sans-serif">Transformando dados em decisões.</text><text x="65" y="461" fill="#b1bdd3" font-size="22" font-family="Arial,sans-serif">E ideias em tecnologia.</text>
+<circle cx="919" cy="304" r="160" fill="url(#sphere)" stroke="#6197ee" stroke-opacity=".7"/>
+<g fill="none" stroke="#83b7ff" stroke-width=".8" opacity=".7" clip-path="url(#clip)">
+<ellipse cx="919" cy="304" rx="60" ry="160"/><ellipse cx="919" cy="304" rx="115" ry="160"/><ellipse cx="919" cy="304" rx="145" ry="160"/><ellipse cx="919" cy="304" rx="160" ry="45"/><ellipse cx="919" cy="304" rx="160" ry="95"/><ellipse cx="919" cy="304" rx="160" ry="135"/>
+<path d="M759 304h320M919 144v320M806 191l226 226M806 417l226-226"/></g>
+<ellipse cx="919" cy="304" rx="210" ry="65" transform="rotate(-32 919 304)" fill="none" stroke="#a2d5ff" stroke-width="1.6"/><ellipse cx="919" cy="304" rx="222" ry="76" transform="rotate(-32 919 304)" fill="none" stroke="#3870c0" stroke-width=".6"/>
+<g fill="#bce4ff"><circle cx="919" cy="144" r="3"/><circle cx="760" cy="304" r="3"/><circle cx="1032" cy="417" r="2"/><circle cx="806" cy="191" r="3"/><circle cx="964" cy="151" r="2"/><circle cx="1077" cy="283" r="2"/><circle cx="850" cy="448" r="3"/><circle cx="990" cy="211" r="2"/></g>
+<path d="M65 541h1070" stroke="#293246"/><text x="65" y="579" fill="#7485a4" font-size="11" letter-spacing="1" font-family="Arial,sans-serif">DATA SCIENCE · DESENVOLVIMENTO · AUTOMAÇÃO</text><text x="936" y="579" fill="#97afd5" font-size="11" font-family="Arial,sans-serif">github.com/Mullerjr6 ↗</text>
+</svg>

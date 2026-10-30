@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1440" viewBox="0 0 1024 1440" fill="none">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1024" y2="1440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161527"/>
+      <stop offset=".58" stop-color="#111725"/>
+      <stop offset="1" stop-color="#11101A"/>
+    </linearGradient>
+    <linearGradient id="portrait" x1="130" y1="225" x2="890" y2="885" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252443"/>
+      <stop offset="1" stop-color="#142C3B"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="511" y1="570" x2="511" y2="915" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7395DB"/>
+      <stop offset="1" stop-color="#4542A1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="116" y1="1024" x2="908" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79B9FF"/>
+      <stop offset=".55" stop-color="#B18BFF"/>
+      <stop offset="1" stop-color="#F08FD2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(1.40382e-5 477 -517 1.52161e-5 512 405)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7E78E8" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#1A2540" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="portrait-clip">
+      <rect x="112" y="214" width="800" height="690" rx="34"/>
+    </clipPath>
+  </defs>
+  <rect width="1024" height="1440" rx="44" fill="url(#card)"/>
+  <rect x="1.5" y="1.5" width="1021" height="1437" rx="42.5" stroke="white" stroke-opacity=".16" stroke-width="3"/>
+  <path d="M512 0v118" stroke="#E8E8FF" stroke-opacity=".35" stroke-width="7"/>
+  <rect x="350" y="93" width="324" height="52" rx="26" fill="#080A12"/>
+  <rect x="352" y="95" width="320" height="48" rx="24" stroke="url(#accent)" stroke-opacity=".75" stroke-width="4"/>
+  <circle cx="512" cy="119" r="8" fill="#A4D9FF"/>
+  <text x="112" y="190" fill="#BDD0F2" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="8">CREDENCIAL CRIATIVA</text>
+  <g clip-path="url(#portrait-clip)">
+    <rect x="112" y="214" width="800" height="690" fill="url(#portrait)"/>
+    <rect x="112" y="214" width="800" height="690" fill="url(#glow)"/>
+    <circle cx="512" cy="490" r="256" stroke="#B8C6FF" stroke-opacity=".15" stroke-width="2"/>
+    <circle cx="512" cy="490" r="211" stroke="#B8C6FF" stroke-opacity=".12" stroke-width="2" stroke-dasharray="7 14"/>
+    <circle cx="512" cy="458" r="134" fill="#B77967"/>
+    <path d="M378 456c-7-119 54-202 148-202 90 0 151 76 129 205-26-19-49-50-61-83-39 44-117 66-216 80Z" fill="#171421"/>
+    <path d="M431 447c19-10 38-10 56-2M540 445c18-9 37-8 54 3" stroke="#3B2730" stroke-width="12" stroke-linecap="round"/>
+    <path d="M488 496c16 9 32 9 48 0" stroke="#7C3E48" stroke-width="8" stroke-linecap="round"/>
+    <path d="M468 559v62c0 34-32 58-67 81-86 56-140 129-154 202h530c-14-73-68-146-154-202-35-23-67-47-67-81v-62H468Z" fill="url(#shirt)"/>
+    <path d="m465 601 47 50 47-50" stroke="#C1D4FF" stroke-opacity=".7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M116 820c119-62 209-64 396-12s296 48 397-8v107H116V820Z" fill="#0C1320" fill-opacity=".72"/>
+    <circle cx="792" cy="321" r="5" fill="#A4D9FF"/>
+    <circle cx="236" cy="745" r="4" fill="#E795D8"/>
+    <path d="M736 288h76M774 250v76M191 315h42M212 294v42" stroke="#C6B9FF" stroke-opacity=".45" stroke-width="3"/>
+  </g>
+  <rect x="112" y="214" width="800" height="690" rx="34" stroke="#D7D5FF" stroke-opacity=".2" stroke-width="3"/>
+  <text x="112" y="1000" fill="#AFC8F6" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="7">DATA · CODE · IDEAS</text>
+  <text x="108" y="1098" fill="#F5F5FF" font-family="Arial,sans-serif" font-size="65" font-weight="700">JÚNIOR MAIA</text>
+  <text x="108" y="1172" fill="#F5F5FF" font-family="Arial,sans-serif" font-size="65" font-weight="700">MÜLLER</text>
+  <text x="112" y="1242" fill="#B3B7CE" font-family="Arial,sans-serif" font-size="31" letter-spacing="2">DATA SCIENCE · DESENVOLVIMENTO</text>
+  <rect x="112" y="1290" width="800" height="3" rx="1.5" fill="url(#accent)" fill-opacity=".75"/>
+  <circle cx="130" cy="1351" r="8" fill="#8FD6FF"/>
+  <text x="156" y="1361" fill="#C5C6D9" font-family="Arial,sans-serif" font-size="25" letter-spacing="4">ILUSTRAÇÃO TEMPORÁRIA</text>
+</svg>
