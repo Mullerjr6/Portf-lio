@@ -6,7 +6,7 @@ import { projects } from '../data/projects'
 import { SectionHeading } from './SectionHeading'
 import { ErrorBoundary } from './ErrorBoundary'
 
-const ParticleNetwork = lazy(() => import('./ParticleNetwork'))
+const ParticleNetwork = lazy(() => import('./effects/ParticleNetwork'))
 const demo = {
   web: [42, 58, 49, 76, 69, 94],
   dados: [35, 47, 62, 58, 83, 78],

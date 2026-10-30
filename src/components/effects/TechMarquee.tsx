@@ -1,4 +1,4 @@
-import { stack } from '../data/profile'
+import { stack } from '../../data/profile'
 
 const technologies = [...new Set(stack.flatMap(group => group.items.map(([name]) => name)))]
 

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties, type ElementType } from 'react'
-import { useMedia } from '../hooks/useExperience'
+import { useMedia } from '../../hooks/useExperience'
 
 export function ScrollRevealText({ text, as = 'span', className = '' }: { text: string; as?: ElementType; className?: string }) {
   const Element = as

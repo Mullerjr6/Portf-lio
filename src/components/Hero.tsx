@@ -4,10 +4,10 @@ import { Activity, ArrowDown, ArrowUpRight, Braces, MoveUpRight, Network, Orbit,
 import { profile } from '../data/profile'
 import { useInViewport, useMedia, usePageVisible } from '../hooks/useExperience'
 import { ErrorBoundary } from './ErrorBoundary'
-import TechText from './TechText'
-import { HalftoneReveal } from './HalftoneReveal'
-import { ScrollRevealText } from './ScrollRevealText'
-import { HeroEffects } from './HeroEffects'
+import TechText from './effects/TechText'
+import { HalftoneReveal } from './effects/HalftoneReveal'
+import { ScrollRevealText } from './effects/ScrollRevealText'
+import { HeroEffects } from './effects/HeroEffects'
 
 const CoreScene = lazy(() => import('./CoreScene'))
 type CoreMode = 'orbit' | 'network' | 'pulse'

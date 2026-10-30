@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { useInViewport, useMedia, usePageVisible } from '../hooks/useExperience'
+import { useInViewport, useMedia, usePageVisible } from '../../hooks/useExperience'
 
 type HalftoneRevealProps = {
   accent: string

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Pause, Play, RotateCcw } from 'lucide-react'
-import { useInViewport, useMedia } from '../hooks/useExperience'
+import { useInViewport, useMedia } from '../../hooks/useExperience'
 
 export default function ParticleNetwork() {
   const canvas = useRef<HTMLCanvasElement>(null)

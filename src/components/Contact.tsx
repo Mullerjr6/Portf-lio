@@ -3,7 +3,7 @@ import { ArrowUpRight, Check, Copy, Mail } from 'lucide-react'
 import { Github, Linkedin } from './BrandIcons'
 import { Link } from 'react-router-dom'
 import { profile } from '../data/profile'
-import { ScrollRevealText } from './ScrollRevealText'
+import { ScrollRevealText } from './effects/ScrollRevealText'
 
 export function Contact() {
   const [copyStatus, setCopyStatus] = useState('')
